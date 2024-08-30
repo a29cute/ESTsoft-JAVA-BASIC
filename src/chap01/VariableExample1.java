@@ -1,6 +1,6 @@
 package chap01;
 
-public class VariableExample {
+public class VariableExample1 {
     public static void main(String[] args) {
         int value = 10;
         if(value == 10){
