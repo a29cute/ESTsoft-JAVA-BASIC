@@ -12,27 +12,27 @@ public class StringConverter {
 
         // String → long/Long
         String str2 = "10000000000";
-        long strTolong = Long.parseLong(str2);
-        Long strToLong = Long.valueOf(str2);
+        long primitiveLong = Long.parseLong(str2);
+        Long wrapperLong = Long.valueOf(str2);
 
-        System.out.println(strTolong);
-        System.out.println(strToLong);
+        System.out.println(primitiveLong);
+        System.out.println(wrapperLong);
 
         // String → float/Float
         String str3 = "1000000.985";
-        float floatType = Float.parseFloat(str3);
-        Float strToFloat = Float.valueOf(str3);
+        float primitiveFloat = Float.parseFloat(str3);
+        Float wrapperFloat = Float.valueOf(str3);
 
-        System.out.println(floatType);
-        System.out.println(strToFloat);
+        System.out.println(primitiveFloat);
+        System.out.println(wrapperFloat);
 
         // String → double/Double
         String str4 = "1000000.985";
-        double doubleType = Double.parseDouble(str4);
-        Double strToDouble = Double.valueOf(str4);
+        double primitiveDouble = Double.parseDouble(str4);
+        Double wrapperDouble = Double.valueOf(str4);
 
-        System.out.println(doubleType);
-        System.out.println(strToDouble);
+        System.out.println(primitiveDouble);
+        System.out.println(wrapperDouble);
 
     }
 }
