@@ -11,9 +11,9 @@ public class StringConverter {
         System.out.println(integerValue);
 
         // String → long/Long
-        String str2 = "10000000000";             // 100억 숫자값으로 입력
-        long strTolong = Long.parseLong(str2);   // primitive Type (long)으로 변환
-        Long strToLong = Long.valueOf(str2);    // Wrapper class (Long)으로 변환
+        String str2 = "10000000000";
+        long strTolong = Long.parseLong(str2);
+        Long strToLong = Long.valueOf(str2);
 
         System.out.println(strTolong);
         System.out.println(strToLong);
