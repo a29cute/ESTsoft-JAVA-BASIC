@@ -30,6 +30,8 @@ public class StringQuestion {
          * Q4. 연속된 문자의 반복 횟수로 문자열 압축해보기
          */
         String str4 = "aaaabbccd";//String str4 = "a4b2c2d1";
+
+
         StringBuilder builder = new StringBuilder();
         int count = 0; // 연속된 문자 저장
         char current = str4.charAt(0); // 현재 분석 중인 문자 저장
