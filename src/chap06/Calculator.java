@@ -8,7 +8,8 @@ public class Calculator {
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        int result = calculator.postfixOperator(1); // 메소드 호출 결과를 result 변수에 저장합니다.
+        int a = 1;
+        int result = calculator.postfixOperator(a); // 메소드 호출 결과를 result 변수에 저장합니다.
         System.out.println(result); // 증가된 값인 2를 출력합니다.
     }
 }
