@@ -13,6 +13,7 @@ public class Car {
     Car(String company, String model){
         this.company = company;
         this.model = model;
+
     }
 
     Car(String company, String model, int maxSpeed){ // 매개변수가 있는 생성자
