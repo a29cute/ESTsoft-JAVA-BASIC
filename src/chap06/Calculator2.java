@@ -20,6 +20,7 @@ public class Calculator2 {
     }
 
     /* Calculator cal 객체를 매개변수로 전달 -> 객체의 필드를 수정*/
+    // calcuator라는 같은 객체를 사용하는 것은 지양하기
     public static void main(String[] args) {
         Calculator2 calculator = new Calculator2(1);
         calculator.postfixOperator(calculator); // 주소값 복사
