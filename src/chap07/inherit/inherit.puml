@@ -1,0 +1,9 @@
+@startuml
+class Animal {
+    -String name
+    +void setName()
+}
+class Dog extends Animal
+class Rabbit extends Animal
+
+@enduml
