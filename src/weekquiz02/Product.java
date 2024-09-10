@@ -13,9 +13,9 @@ public class Product implements Promotion {
 
     @Override
     public int getDiscountAmount() {
-        if (this.name.equals("grocery")) {
+        if (name.equalsIgnoreCase("grocery")) {
             return 2000;
-        } else if (this.name.equals("beauty")) {
+        } else if (name.equalsIgnoreCase("beauty")) {
             return 10000;
         } else {
             return 0;
