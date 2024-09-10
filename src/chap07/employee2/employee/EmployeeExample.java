@@ -12,7 +12,7 @@ public class EmployeeExample {
             // Employee employee = new Employee();
 
             /* 객체지향 다형성 */
-            Employee fullTime = new FullTimeEmployee("Mati",10000); // 추상클래스를 참조하는 타입으로 가능
-            System.out.println(fullTime.name + "'s Salary: " + fullTime.calculateSalary());
+            Employee employee1 = new FullTimeEmployee("Alice",10000); // 추상클래스를 참조하는 타입으로 가능
+            System.out.println(employee1.name + "'s Salary: " + employee1.calculateSalary());
         }
 }
