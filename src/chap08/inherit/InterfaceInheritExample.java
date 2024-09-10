@@ -3,18 +3,22 @@ package chap08.inherit;
 public class InterfaceInheritExample {
     public static void main(String[] args) {
         ImplementsC implC = new ImplementsC();
-
-        InterfaceA interA = implC;
-        interA.methodA();
+        implC.methodA();
+        implC.methodB();
+        implC.methodC();
         System.out.println("---------------");
 
-        InterfaceB interB = implC;
-        interB.methodB();
+        InterfaceA interfaceA = implC;
+        interfaceA.methodA();
         System.out.println("---------------");
 
-        InterfaceC interC = implC;
-        interC.methodA();
-        interC.methodB();
-        interC.methodC();
+        InterfaceB interfaceB = implC;
+        interfaceB.methodB();
+        System.out.println("---------------");
+
+        InterfaceC interfaceC = implC;
+        interfaceC.methodA();
+        interfaceC.methodB();
+        interfaceC.methodC();
     }
 }
