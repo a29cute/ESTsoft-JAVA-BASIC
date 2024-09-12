@@ -1,3 +1,5 @@
+package coding;
+
 public class Solution {
 
 

@@ -1,3 +1,5 @@
+package coding;
+
 import java.util.Arrays;
 
 public class Solution2 {
