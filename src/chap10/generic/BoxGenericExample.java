@@ -8,5 +8,12 @@ public class BoxGenericExample {
         // box.setObject(10);
         String str = box.getObject();
         System.out.println(str);
+
+        Box<Integer> intObjectBox = new Box<>();
+        Box<Double> doubleBox = new Box<>();
+        Box<Boolean> booleanBox = new Box<>();
+
+        // 제네릭 메소드
+        Box<Integer> value = Util.boxing(10);
     }
 }
