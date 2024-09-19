@@ -13,7 +13,5 @@ public class BoxGenericExample {
         Box<Double> doubleBox = new Box<>();
         Box<Boolean> booleanBox = new Box<>();
 
-        // 제네릭 메소드
-        Box<Integer> value = Util.boxing(10);
     }
 }
